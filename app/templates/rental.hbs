@@ -1,0 +1,5 @@
+<h2>More information about {{model.owner}}'s {{model.type}}</h2>
+<!-- model here is referenced to the right of the = instead of the word rental because model is passed directly in. model doesn't need to be broken up into different components -->
+{{update-rental rental=model update="update"}}
+
+{{rental-detail rental=model destroyRental="destroyRental"}}
