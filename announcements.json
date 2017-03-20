@@ -1,0 +1,11 @@
+{"announcements": [{
+  "date":"03-18-2017",
+  "message":"Everything is on sale",
+  "type": "Official"
+},
+{
+  "date":"04-18-2017",
+  "message":"Everything is NO LONGER on sale",
+  "type": "NOT Official"
+}]
+}

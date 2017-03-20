@@ -1,0 +1,10 @@
+<li>
+  {{announcement.date}}'s news: (Type: {{announcement.type}} Author: {{announcement.author}})
+  {{#if textIsShowing }}
+    <p>{{announcement.message}}</p>
+    <button {{action 'hideText'}}></button>
+  {{else}}
+    <button {{action 'showText'}}>Show Content</button>
+  {{/if}}
+  <button {{action 'delete' announcement}}>Delete Announcement</button>
+</li>
