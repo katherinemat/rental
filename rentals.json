@@ -20,11 +20,13 @@
   "announcements": [{
     "date":"03-18-2017",
     "message":"Everything is on sale",
-    "type": "Official"
+    "type": "Official",
+    "author": "Admin"
   },
   {
     "date":"04-18-2017",
     "message":"Everything is NO LONGER on sale",
-    "type": "NOT Official"
+    "type": "NOT Official",
+    "author": "Sub Admin"
   }]
 }

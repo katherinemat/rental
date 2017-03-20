@@ -2,7 +2,7 @@
 <h2>Announcement:</h2>
 <ul>
   {{#each announcements as |announcement|}}
-    {{rental-announcement announcement=announcement}}
+    {{rental-announcement announcement=announcement destroyAnnouncement="destroyAnnouncement"}}
   {{/each}}
 </ul>
 <p>We hope you find exactly what you're looking for in a place to stay.</p>

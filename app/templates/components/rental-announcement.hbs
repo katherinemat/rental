@@ -2,7 +2,7 @@
   {{announcement.date}}'s news: (Type: {{announcement.type}} Author: {{announcement.author}})
   {{#if textIsShowing }}
     <p>{{announcement.message}}</p>
-    <button {{action 'hideText'}}></button>
+    <button {{action 'hideText'}}>Hide Content</button>
   {{else}}
     <button {{action 'showText'}}>Show Content</button>
   {{/if}}
