@@ -17,11 +17,11 @@ module.exports = function(environment) {
       }
     },
     firebase: {
-      apiKey: 'AIzaSyBFP5CibJHpp_7qHt5vpSclV8aLZ85vA1w',
-      authDomain: 'rental-41ee1.firebaseapp.com',
-      databaseURL: 'https://rental-41ee1.firebaseio.com',
-      storageBucket: 'rental-41ee1.appspot.com',
-      messagingSenderId: '895704195254'
+      apiKey: "AIzaSyAwlcpxq9jxqce67xQGAWcbQqD66oZbNL4",
+      authDomain: "rentals-d6966.firebaseapp.com",
+      databaseURL: "https://rentals-d6966.firebaseio.com",
+      storageBucket: "rentals-d6966.appspot.com",
+      messagingSenderId: "181049137540" 
     },
     APP: {
       // Here you can pass flags/options to your application instance
